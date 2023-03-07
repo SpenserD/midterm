@@ -3,7 +3,7 @@
 1. Output your first and last name
 
 ```
-print(_)
+print(...)
 ```
 Example Output:
 ```
@@ -18,14 +18,19 @@ First Last
 - Output the resulting sentence
 
 ```
-def name_and_grade(first_initial, _, _):
+def name_and_grade(first_initial, ..., ...):
 
   # Format sentence below
   sentence =  ...
 
   # Don't forget to return the formatted sentence
+  ...
 
 print(name_and_grade("D", "Whitby", 12))
+```
+Example Output:
+```
+D, Whitby, 12
 ```
 
 </br>
@@ -36,13 +41,19 @@ def consecutive_numbers(n):
 
   number_list = []
 
-  for i in range(1, _):
-    factor_list.append(i)
+  for i in range(1, ...):
+    number_list.append(i)
 
   return number_list
 
-print(_)
+print(...)
 ```
+Example Output:
+```
+[1, 2, 3, 4, 5]
+```
+
+
 </br>
 4. Write a function that takes a number (n) as an input and returns all factors of n.
 
@@ -53,13 +64,17 @@ def factors(n):
 
   for i in range(1, n):
     
-    if n % i == _:
+    if n % i == ...:
       ...
       
 
   return factor_list
 
-print(_)
+print(...)
+```
+Example Output:
+```
+[1, 2, 4, 8]
 ```
 
 </br>
