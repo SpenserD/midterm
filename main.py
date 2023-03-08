@@ -3,7 +3,7 @@ print("Spenser Deremiah")
 def name_and_grade(last_name, first_initial, grade):
 
    # Format sentence below
-  sentence = "My last name is {last_name}, my first initial is {first_initial}, and my grade is {grade}".format(last_name = "Deremiah", first_initial = "S", grade = "9th")
+  sentence = "Last Name, First Initial, Grade ~> {last_name}, {first_initial}. {grade}".format(last_name = "Deremiah", first_initial = "S", grade = "9th")
   
 
   # Don't forget to return the formatted sentence
@@ -33,6 +33,12 @@ def factors(n):
 
   return factor_list
 
-print(factors(8))
+print(factors(100))
 
-print(100)
+def grade(n):
+
+  sentence = "Grade = {grade}".format(grade = (n))
+
+  return sentence
+
+print(grade(100))
